@@ -1,0 +1,1272 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    min-height: 100%;
+    overflow-x: hidden;
+}
+.page_1 img {
+    pointer-events: none; 
+    cursor: default;
+}
+.page_2 img {
+    pointer-events: none; 
+    cursor: default;
+}
+.page_3 img {
+    pointer-events: none; 
+    cursor: default;
+}
+.page_4 img {
+    pointer-events: none; 
+    cursor: default;
+}
+.page_5 img {
+    pointer-events: none; 
+    cursor: default;
+}
+
+
+
+/* START CODE PAGE_1 */
+.container {
+    width: 1250px;
+}
+.navbar {
+    padding-top: 25px;
+}
+.logo p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.logo span {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #0099FF;
+}
+a {
+    text-decoration: none;
+}
+nav a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #000000;
+}
+nav a:hover {
+    color: #0099FF;
+    transition: all 200ms;
+}
+.login .button_1 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #0099FF;
+    border: 2px solid #0099FF;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 13px 63px;
+}
+.login .button_1:hover {
+    color: white;
+    background-color: #0099FF;
+    transition: all 500ms;
+}
+.logo {
+    width: 200px;
+    margin-top: 15px;
+}
+nav {
+    width: 268px;
+    display: flex;
+    justify-content: space-between;
+}
+.login {
+    width: 200px;
+}
+.main .text h1 {
+    width: 569px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 61px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+    margin-top: 190px;
+    margin-left: 70px;
+}
+.main .text p {
+    width: 500px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 156%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #999999;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+.main .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1250px;
+}
+.main .text img {
+    margin-top: -100px;
+}
+.button_2 {
+    padding: 13px 63px;
+    height: 54px;
+    background: #0099FF;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 70px;
+    margin-top: 34px;
+    border: 2px solid transparent;
+}
+.button_2:hover {
+    color: #0099FF;
+    background-color: transparent;
+    transition: all 300ms;
+    border: 2px solid #0099FF;
+}
+.main .img img {
+    margin-left: -320px;
+}
+
+
+/* START CODE PAGE_2 */
+.page_2 {
+    margin-top: 90px;
+    height: 784px;
+    background-image: url(img/Rectangle\ 11.png);
+}
+.page_2 h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+    padding-top: 100px;
+}
+.page_2 h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+    width: 632px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.page_2 .card {
+    border: none;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 230px;
+    margin-top: 150px;
+}
+.page_2 .cards img {
+    width: 124px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+.page_2 .card h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 156%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+    margin-top: 30px;
+}
+.page_2 .card p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #999999;
+    width: 194px;
+    margin: 0 auto;
+}
+.page_2 .cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1050px;
+}
+
+
+/* START CODE PAGE_3 */
+.page_3 img {
+    margin-top: 80px;
+    width: 500px;
+    height: 500px;
+}
+.text h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+}
+.text h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+}
+.text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 183.5%;
+    letter-spacing: 0.03em;
+    color: #999999;
+    width: 577px;
+    margin-top: 20px;
+}
+.button_3 {
+    padding: 13px 63px;
+    height: 54px;
+    background: #0099FF;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border: none;
+    border: 2px solid transparent;
+}
+.page_3 .container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+.page_3 .text {
+    margin-top: 120px;
+}
+.button_3:hover {
+    color: #0099FF;
+    background-color: transparent;
+    transition: all 300ms;
+    border: 2px solid #0099FF;
+}
+
+
+/* START CODE PAGE_4 */
+.page_4 {
+    margin-top: 90px;
+    height: 784px;
+    background-image: url(img/Rectangle\ 11.png);
+    height: 883px;
+}
+.page_4 h3 {
+    padding-top: 100px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+}
+.page_4 h2 {
+    width: 632px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.page_4 .cards {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.page_4 .card {
+    border: none;
+    background-color: transparent;
+}
+.page_4 .info {
+    width: 229.17px;
+    height: 130px;
+    background: #ffffff;
+    border-radius: 5px;
+    margin: 0 auto;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-top: -50px;
+}
+.page_4 img {
+    width: 270px;
+    height: 330px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.page_4 .icons {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7px;
+    padding-left: 15px;
+}
+.page_4 .icons img {
+    width: 14.1px;
+    height: 14.1px;
+}
+.page_4 .info h4 {
+    width: 211.54px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+    padding-left: 15px;
+    margin-top: 8px;
+}
+.page_4 .info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+    padding-left: 15px;
+}
+
+
+/* START CODE PAGE_5 */
+.page_5 h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+    margin-top: 100px;
+}
+.page_5 .container h3 {
+    width: 632px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+    margin-top: 20px;
+}
+.page_5 .cards {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.page_5 .card img {
+    width: 540px;
+    height: 350px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.page_5 .card {
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.page_5 .card .info {
+    width: 540px;
+    height: 184.67px;
+    background: #F1FAFC;
+    border: none;
+    border-radius: 5px;
+}
+.page_5 .card .info h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #000000;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 6px;
+}
+.page_5 .card .info p {
+    width: 423.13px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 144%;
+    letter-spacing: 0.03em;
+    color: #333333;
+    margin-left: 20px;
+}
+.page_5 .card .info img {
+    width: 119px;
+    height: 24px;
+    margin-left: 200px;
+}
+.page_5 .container-fluid  {
+    height: 320px;
+    background: #333333;
+    margin-top: 160px;
+}
+.page_5 .container-fluid .contact {
+    color: white;
+}
+.page_5 .contact {
+    width: 1250px;
+    margin: 0 auto;
+}
+.page_5 .container-fluid .contact h3 {
+    padding-top: 75px;
+    margin-left: 80px;
+    width: 450px;
+}
+.page_5 .container-fluid .contact p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+.contact_button {
+    display: flex;
+    justify-content: space-between;
+}
+.button_5 {
+    padding: 13px 63px;
+    height: 54px;
+    background: #0099FF;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 55px;
+    margin-right: 110px;
+}
+
+
+/* START CODE PAGE_6 */
+.page_6 {
+    width: 100%;
+    background: #F1FAFC;
+}
+.info_company {
+    margin-left: 20px;
+}
+.info_company p {
+    width: 540px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 191%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+}
+.info_company .icons {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 275px;
+    padding-bottom: 105px;
+}
+.page_6 .logo p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.info_menu {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: left;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #000000;
+}
+.info_menu a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #000000;
+}
+.info_menu {
+    padding-top: 10px;
+}
+.info_sub h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #000000;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.media_small {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.info_company {
+    width: 400px;
+}
+.info_company p {
+    width: 450px;
+}
+form {
+    margin-top: 20px;
+}
+input[type=email] {
+    width: 366px;
+    height: 74px;
+    background: #494949;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.61);
+    text-align: left;
+    padding-left: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+input[type=submit] {
+    padding: 13px 63px;
+    width: 216px;
+    height: 63px;
+    background: #0099FF;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border: none;
+}
+input[type=submit]:hover {
+    transition: all 300ms;
+    color: #0099FF;
+    background-color: white;
+    border: 2px solid #0099FF;
+}
+.button_5:hover {
+    color: #0099FF;
+    background-color: white;
+    transition: all 300ms;
+    border: none
+}
+.info_menu a:hover {
+    color: #0099FF;
+    transition: all 200ms;
+}
+.page_6 .icons a img {
+    width: 36px;
+    height: 36px;
+}
+.page_6 .icons a img:hover {
+    border: 2px solid #0099FF;
+    border-radius: 10px;
+    transition: all 100ms;
+}
+
+
+
+/* START CODE MEDIA */
+@media screen and (max-width:1200px) {
+    .container {
+        width: 960px;
+    }
+    .main .container-fluid {
+        width: 1000px;
+    }
+    .page_5 .container-fluid .contact {
+        width: 960px;
+    }
+    .page_1 .text {
+        width: 350px;
+    }
+    .page_1 .text h1 {
+        width: 380px;
+        margin-top: 140px;
+        margin-left: 50px;
+    }
+    .page_1 .text p {
+        width: 400px;
+        margin-left: 50px;
+    }
+    .page_1 .img img {
+        width: 550px;
+        margin-left: -500px;
+    }
+    .button_2 {
+        margin-left: 50px;
+    }
+    .page_2 .cards {
+        width: 960px;
+    }
+    .page_3 img {
+        width: 400px;
+        height: 480px;
+    }
+    .page_3 .text {
+        width: 480px;
+        margin-top: 60px;
+    }
+    .page_3 .text p {
+        width: 420px;
+        margin-bottom: 30px;
+    }
+    .page_4 .info {
+        width: 200px;
+    }
+    .page_4 img {
+        width: 220px;
+        height: 300px;
+    }
+    .page_5 .card {
+        width: 450px;
+    }
+    .page_5 .card img {
+        width: 450px;
+    }
+    .page_5 .card .info {
+        width: 450px;
+    }
+    .page_5 .card .info img {
+        margin-left: 170px;
+    }
+    .contact_button {
+        width: 990px;
+    }
+    .page_6 .info_company {
+        width: 300px;
+    }
+    .page_6 .info_company p {
+        width: 300px;
+    }
+    .media_small {
+        display: flex;
+        justify-content: space-between;
+        width: 550px;
+    }
+    
+}
+@media screen and (max-width:992px) {
+    .container {
+        width: 720px;
+    }
+    .main .container-fluid {
+        width: 900px;
+    }
+    .page_5 .container-fluid .contact {
+        width: 720px;
+    }
+    .logo {
+        width: 120px;
+    }
+    .page_1 .text {
+        width: 250px;
+        margin-left: 50px;
+    }
+    .page_1 .text h1 {
+        width: 230px;
+        font-size: 35px;
+        line-height: 35px;
+        margin-top: 100px;
+    }
+    .page_1 .text p {
+        width: 250px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .page_1 .img img {
+        width: 450px;
+        margin-left: -520px;
+    }
+    .button_2 {
+        margin-left: 50px;
+        font-size: 18px;
+        padding: 13px 40px;
+    }
+    .page_2 .cards {
+        width: 720px;
+    }
+    .page_2 .card {
+        width: 220px;
+    }
+    .page_3 img {
+        width: 300px;
+        height: 380px;
+    }
+    .page_3 .text {
+        width: 380px;
+        margin-top: 60px;
+    }
+    .page_3 .text h2 {
+        font-size: 28px;
+    }
+    .page_3 .text p {
+        width: 380px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .page_4 {
+        height: 800px;
+    }
+    .page_4 .info {
+        width: 130px;
+    }
+    .page_4 img {
+        width: 160px;
+        height: 220px;
+    }
+    .page_4 .info h4 {
+        width: 125px;
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .page_5 .card {
+        width: 330px;
+    }
+    .page_5 .card img {
+        width: 330px;
+        height: 280px;
+    }
+    .page_5 .card .info {
+        width: 330px;
+        height: 220px;
+    }
+    .page_5 .card .info p {
+        width: 300px;
+    }
+    .page_5 .card .info img {
+        margin-left: 110px;
+    }
+    .contact_button {
+        width: 820px;
+    }
+    .page_6 .info_company {
+        width: 300px;
+        display: block;
+    }
+    .page_6 .info_company p {
+        width: 300px;
+    }
+    .page_6 .info_sub {
+        width: 220px;
+    }
+    .info_sub h4 {
+        font-size: 22px;
+        line-height: 27px;
+        margin-top: 10px;
+    }
+    input[type=email] {
+        width: 250px;
+    }
+    input[type=submit] {
+        width: 216px;
+        height: 63px;
+    }
+    .media_small {
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+    }
+}
+@media screen and (max-width:768px) {
+    .container {
+        width: 540px;
+    }
+    .main .container-fluid {
+        width: 540px;
+    }
+    .page_5 .container-fluid .contact {
+        width: 540px;
+    }
+    .page_1 nav a {
+        font-size: 13px;
+    }
+    .page_1 nav {
+        width: 180px;
+    }
+    .logo {
+        width: 100px;
+    }
+    .login {
+        width: 70px;
+    }
+    .login .button_1 {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 27px;
+        padding: 15px;
+    }
+    .page_1 .text {
+        width: 250px;
+        margin-left: 0px;
+    }
+    .page_1 .text h1 {
+        width: 230px;
+        font-size: 35px;
+        line-height: 35px;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .page_1 .text p {
+        width: 250px;
+        font-size: 13px;
+        line-height: 20px;
+        margin-left: 10px;
+    }
+    .page_1 .img img {
+        width: 280px;
+        margin-left: 0;
+    }
+    .button_2 {
+        margin-left: 50px;
+        font-size: 15px;
+        padding: 13px 40px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .page_2 {
+        height: 650px;
+    }
+    .page_2 h3 {
+        padding-top: 80px;
+    }
+    .page_2 h2 {
+        width: 400px;
+        font-size: 35px;
+    }
+    .page_2 .cards {
+        width: 520px;
+    }
+    .page_2 .card {
+        width: 160px;
+        height: 180px;
+        margin-top: 120px;
+    }
+    .page_2 .card p {
+        width: 140px;
+        font-size: 15px;
+    }
+    .page_2 .card img {
+        width: 80px;
+        height: 80px;
+    }
+    .page_3 img {
+        width: 200px;
+        height: 250px;
+    }
+    .page_3 .text {
+        width: 280px;
+        margin-top: 70px;
+    }
+    .page_3 .photo {
+        margin-top: 60px;
+    }
+    .page_3 .text h2 {
+        font-size: 23px;
+    }
+    .page_3 .text p {
+        width: 280px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .page_4 {
+        height: 640px;
+    }
+    .page_4 h3 {
+        padding-top: 70px;
+    }
+    .page_4 h2 {
+        font-size: 30px;
+        width: 450px;
+    }
+    .page_4 .info {
+        width: 100px;
+    }
+    .page_4 .icons {
+        width: 80px;
+    }
+    .page_4 img {
+        width: 120px;
+        height: 180px;
+    }
+    .page_4 .cards {
+        margin-top: 50px;
+    }
+    .page_4 .info h4 {
+        width: 90px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .page_4 .info p {
+        font-size: 11px;
+    }
+    .page_5 .card {
+        width: 240px;
+    }
+    .page_5 h4 {
+        margin-top: 70px;
+    }
+    .page_5 .container h3 {
+        width: 500px;
+        font-size: 30px;
+    }
+    .page_5 .card img {
+        width: 240px;
+        height: 200px;
+    }
+    .page_5 .card .info {
+        width: 240px;
+        height: 270px;
+    }
+    .page_5 .container-fluid {
+        margin-top: 70px;
+    }
+    .page_5 .card .info p {
+        width: 210px;
+    }
+    .page_5 .card .info img {
+        margin-left: 60px;
+    }
+    .contact_button {
+        width: 540px;
+    }
+    .page_5 .contact_button p {
+        width: 200px;
+    }
+    .page_5 .contact_button .button_5 {
+        padding: 10px;
+        margin-right: 45px;
+        margin-top: 70px;
+    }
+    footer {
+        display: block;
+    }
+    .page_6 .info_company {
+        width: 480px;
+        display: block;
+    }
+    .page_6 .info_company p {
+        width: 480px;
+    }
+    .page_6 .info_sub {
+        width: 220px;
+        margin-right: 50px;
+    }
+    .page_6 .info_menu {
+        margin-left: 50px;
+    }
+    .info_sub h4 {
+        font-size: 22px;
+        line-height: 27px;
+        margin-top: 10px;
+    }
+    input[type=email] {
+        width: 250px;
+    }
+    input[type=submit] {
+        width: 216px;
+        height: 63px;
+    }
+    .media_small {
+        display: flex;
+        justify-content: space-between;
+        width: 480px;
+        padding-bottom: 70px;
+    }
+}
+@media screen and (max-width:576px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .main .container-fluid {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .page_5 .container-fluid .contact {
+        width: 380px;
+    }
+    .page_1 .text {
+        width: 200px;
+    }
+    .page_1 .text h1 {
+        width: 170px;
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .page_1 .text p {
+        width: 195px;
+        font-size: 11px;
+        line-height: 15px;
+        margin-left: 10px;
+    }
+    .page_1 .img img {
+        width: 220px;
+        margin-left: -20px;
+        margin-top: 15px;
+    }
+    .button_2 {
+        margin-left: 50px;
+        font-size: 15px;
+        padding: 13px 40px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .page_2 {
+        height: 540px;
+        margin-top: 50px;
+    }
+    .page_2 h3 {
+        padding-top: 50px;
+    }
+    .page_2 h2 {
+        width: 300px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .page_2 .cards {
+        width: 400px;
+    }
+    .page_2 .card {
+        width: 120px;
+        height: 200px;
+        margin-top: 80px;
+    }
+    .page_2 .card p {
+        width: 100px;
+        font-size: 15px;
+    }
+    .page_2 .card img {
+        width: 60px;
+        height: 60px;
+        margin-top: -25px;
+    }
+    .page_3 {
+        height: 260px;
+    }
+    .page_3 .container {
+        width: 380px;
+    } 
+    .page_3 img {
+        width: 150px;
+        height: 200px;
+    }
+    .page_3 .text {
+        width: 180px;
+        margin-top: 40px;
+        margin-left: -300px;
+    }
+    .page_3 .photo {
+        margin-top: 0px;
+    }
+    .page_3 .text h2 {
+        width: 180px;
+        font-size: 15px;
+        margin-top: -20px;
+    }
+    .page_3 .text h3 {
+        font-size: 14px;
+        margin: 0;
+    }
+    .page_3 .text p {
+        width: 180px;
+        font-size: 8px;
+        line-height: 15px;
+        margin-bottom: 15px;
+        margin-top: -5px;
+    }
+    .button_3 {
+        padding: 10px 15px;
+    }
+    .page_4 {
+        height: 450px;
+    }
+    .page_4 h3 {
+        padding-top: 50px;
+    }
+    .page_4 h2 {
+        font-size: 30px;
+        width: 400px;
+        line-height: 33px;
+    }
+    .page_4 .info {
+        width: 80px;
+        height: 90px;
+    }
+    .page_4 .icons {
+        width: 60px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .page_4 img {
+        width: 90px;
+        height: 120px;
+    }
+    .page_4 .cards {
+        margin-top: 50px;
+    }
+    .page_4 .info h4 {
+        width: 70px;
+        font-size: 6px;
+        line-height: 9px;
+    }
+    .page_4 .info p {
+        font-size: 8px;
+    }
+    .page_5 .card {
+        width: 180px;
+    }
+    .page_5 h4 {
+        margin-top: 50px;
+    }
+    .page_5 .container h3 {
+        width: 380px;
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .page_5 .card img {
+        width: 180px;
+        height: 160px;
+    }
+    .page_5 .card .info {
+        width: 180px;
+        height: 190px;
+    }
+    .page_5 .container-fluid {
+        margin-top: 50px;
+    }
+    .page_5 .container-fluid .contact h3 {
+        width: 380px;
+        font-size: 15px;
+        margin: 0;
+        text-align: center;
+    }
+    .page_5 .card .info p {
+        width: 150px;
+        font-size: 12px;
+    }
+    .page_5 .card .info img {
+        margin-left: 30px;
+    }
+    .contact_button {
+        width: 380px;
+    }
+    .page_5 .container-fluid .contact {
+        margin: 0 auto;
+    }
+    .page_5 .container-fluid {
+        height: 250px;
+    }
+    .page_5 .contact_button {
+        margin: 0;
+        padding: 0;
+    }
+    .page_5 .container-fluid .contact_button p {
+        width: 200px;
+        font-size: 12px;
+        margin: 50px 0px;
+        padding-left: 50px;
+    }
+    .page_5 .contact_button .button_5 {
+        padding: 10px;
+        font-size: 15px;
+        margin-top: 50px;
+    }
+    footer {
+        display: block;
+        padding-top: 50px;
+    }
+    .page_6 .info_company {
+        width: 370px;
+        display: block;
+    }
+    .page_6 .container footer .info_company p {
+        width: 350px;
+        font-size: 15px;
+    }
+    .page_6 .info_sub {
+        width: 100px;
+        margin-right: 150px;
+    }
+    .page_6 .info_menu {
+        margin-left: 30px;
+    }
+    .page_6 .icons {
+        padding-bottom: 50px;
+    }
+    .info_sub h4 {
+        width: 200px;
+        font-size: 15px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+    input[type=email] {
+        width: 210px;
+    }
+    input[type=submit] {
+        padding: 10px 5px;
+    }
+    .media_small {
+        display: flex;
+        justify-content: space-between;
+        width: 400px;
+        padding-bottom: 70px;
+    }
+}
